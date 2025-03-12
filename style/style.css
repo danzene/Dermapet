@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Royce";
-    src: url('/style/font/Royce-Semibold.otf') format('opentype');
+    src: url('/style/font/Royce-Semibold.woff2') format('woff2'),
+         url('/style/font/Royce-Semibold.woff') format('woff');
 }
-
 :root {
     --clr-primary: white;
     --clr-secondary: #F3C592;
