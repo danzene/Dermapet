@@ -316,6 +316,7 @@ ul li a:hover {
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s ease;
+    object-fit: cover;
 }
 
 .servicoFilho img:hover {
@@ -338,7 +339,7 @@ ul li a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 10px;
-    width: 95%;
+    width: auto;
     max-width: 80%;
     height: auto;
     max-height: 80vh;
@@ -392,6 +393,7 @@ ul li a:hover {
     font-size: 1em;
     color: #fff;
     font-family: "Timmana", sans-serif;
+    padding: 15px;
 }
 
 
