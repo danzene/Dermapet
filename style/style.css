@@ -390,7 +390,7 @@ ul li a:hover {
     margin-bottom: 10px;
     white-space: pre-line;
     /* Mantém as quebras de linha conforme estão no HTML */
-    font-size: 1em;
+    font-size: clamp(14px, 1vw, 18px);
     color: #fff;
     font-family: "Timmana", sans-serif;
     padding: 15px;
